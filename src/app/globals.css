@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.nooutline:active, .nooutline:focus {
+  outline: none;
+  border: none;
+  -moz-outline-style: none;
+}
